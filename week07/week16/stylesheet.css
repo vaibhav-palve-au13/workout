@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Syncopate);
+
+body { 
+  background: black;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 80px;
+  line-height: 0.9;
+  padding: 20px;
+  font-family: 'Syncopate', sans-serif;
+  text-transform: uppercase;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    white,
+    #111
+  ) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
